@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Pull repo"){
             steps{
-                git 'git@github.com:rameca231190/kubernetes_cluster.git'
+                git 'git@github.com:sstanytska/kubernetes_cluster.git'
             }
         }
         stage("terraform init"){
